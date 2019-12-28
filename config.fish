@@ -32,3 +32,7 @@ function fish_prompt
     set_color normal
 end
 
+# Environment variables
+
+set -x JAVA_HOME (/usr/libexec/java_home)
+
